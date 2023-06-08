@@ -1,3 +1,7 @@
 export default function Button() {
-  return <div>Button</div>;
+  return (
+    <button type="button" className="button">
+      Оставить Заявку
+    </button>
+  );
 }

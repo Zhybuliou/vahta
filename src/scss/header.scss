@@ -3,3 +3,37 @@
     width: 100%;
     background-color: $white;
 }
+.header-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    margin: 0 auto;
+    max-width: 1145px;
+}
+.header-logo{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 41px;
+
+    color: $primary;
+}
+.header-menu{
+    display: flex;
+    width: 400px;
+    align-items: center;
+    justify-content: space-between;
+
+    a{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        text-decoration: none;
+        color: $font-black;
+    }
+}

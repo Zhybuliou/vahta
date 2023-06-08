@@ -15,4 +15,22 @@ body {
 .wrapper-main{
   background-color: $white-blue;
 }
+.button{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 70px;
+  background: $primary;
+  color: $white;
+  border-radius: 50px;
 
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+
+  text-transform: uppercase;
+  cursor: pointer;
+}
