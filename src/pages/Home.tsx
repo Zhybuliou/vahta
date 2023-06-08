@@ -1,3 +1,7 @@
 export default function Home() {
-  return <h2>Home Page 2</h2>;
+  return (
+    <div className="wrapper-content">
+      <h2>Hello world!!!</h2>
+    </div>
+  );
 }
