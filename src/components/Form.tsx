@@ -1,4 +1,4 @@
-import { Button, TextField } from '@mui/material';
+import { Button, Checkbox, TextField } from '@mui/material';
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 
@@ -59,9 +59,10 @@ export default function Form() {
         />
         <TextField
           style={{ width: '100%', margin: '5px', background: 'white' }}
-          type="text"
+          type="date"
           label="Дата рождения"
           variant="outlined"
+          inputProps={{ min: '1964-01-24', max: '2005-05-31' }}
         />
         <TextField
           style={{ width: '100%', margin: '5px', background: 'white' }}
@@ -69,6 +70,7 @@ export default function Form() {
           label="Телефон"
           variant="outlined"
         />
+        <Checkbox />Я даю Согласие на обработку персональных данных.
         <Button style={{ width: '100%', margin: '5px' }} variant="contained" color="primary">
           Отправить анкету
         </Button>
