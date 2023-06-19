@@ -66,7 +66,6 @@
 }
 .advantages-item{
     display: flex;
-    align-items: center;
     width: 338px;
     height: 55px;
     svg{
@@ -89,4 +88,35 @@
 
         color: #333333;
     }
+}
+.form-section{
+    height: 874px;
+    width: 100%;
+
+    background: #F2F5FF;
+}
+.form-section-wrapper{
+    margin: 0 auto;
+    max-width: 1145px;
+    height: 100%;
+}
+.form-section-header{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #333333;
+}
+.form-section-content{
+    display: flex;
+}
+.form-section-content-left{
+    width: 55%;
+}
+.form-section-content-right{
+    width: 45%;
+    background-image: url('../../public/image/bulldozer.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
 }

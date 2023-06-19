@@ -1,6 +1,6 @@
-import { FaShuttleVan, FaCoffee, FaBuilding } from 'react-icons/fa';
 import { TbBus, TbCoffee, TbBuildingCommunity } from 'react-icons/tb';
 import Button from '../components/Button';
+import Form from '../components/Form';
 
 export default function Home() {
   return (
@@ -39,9 +39,20 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="wrapper-content">
-        <h2>Hello world!!!</h2>
+      <div id="form" className="form-section">
+        <div className="form-section-wrapper">
+          <h2 className="form-section-header">Отправьте анкету и мы обязательно перезвоним</h2>
+          <div className="form-section-content">
+            <div className="form-section-content-left">
+              <Form />
+            </div>
+            <div className="form-section-content-right" />
+          </div>
+        </div>
       </div>
+      {/* <div className="wrapper-content">
+        <h2>Hello world!!!</h2>
+      </div> */}
     </>
   );
 }
