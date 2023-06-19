@@ -1,3 +1,4 @@
+import { Button, TextField } from '@mui/material';
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 
@@ -47,5 +48,31 @@ export default function Form() {
     getData();
   }, [data]);
 
-  return <div className="form-wrapper">form</div>;
+  return (
+    <div className="form-wrapper">
+      <form>
+        <TextField
+          style={{ width: '100%', margin: '5px', background: 'white' }}
+          type="text"
+          label="Фамилия Имя Отчество"
+          variant="outlined"
+        />
+        <TextField
+          style={{ width: '100%', margin: '5px', background: 'white' }}
+          type="text"
+          label="Дата рождения"
+          variant="outlined"
+        />
+        <TextField
+          style={{ width: '100%', margin: '5px', background: 'white' }}
+          type="text"
+          label="Телефон"
+          variant="outlined"
+        />
+        <Button style={{ width: '100%', margin: '5px' }} variant="contained" color="primary">
+          Отправить анкету
+        </Button>
+      </form>
+    </div>
+  );
 }
