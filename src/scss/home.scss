@@ -14,3 +14,79 @@
     background-size: cover;
     background-position: center;
 }
+.home-top-content{
+    display: flex;
+    margin: 0 auto;
+    max-width: 1145px;
+    height: 100%;
+    justify-content: end;
+    align-items: center;
+
+}
+.home-top-window{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 643px;
+    height: 443px;
+
+    padding: 40px;
+
+    background: #DFE9F4;
+    border-radius: 10px;
+    h2{
+        color: #054C73;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 52px;
+        line-height: 65px;
+    }
+    p{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 39px;
+        color: #333333;
+    }
+}
+.advantages-section{
+    height: 150px;
+    width: 100%;
+
+    background: #F2F5FF;
+}
+.advantages-section-content{
+    display: flex;
+    margin: 0 auto;
+    max-width: 1145px;
+    height: 100%;
+
+    align-items: center;
+    justify-content: space-between;
+}
+.advantages-item{
+    display: flex;
+    align-items: center;
+    width: 338px;
+    height: 55px;
+    svg{
+        color: #111111;
+        margin-right: 10px;
+        font-size: 3rem;
+    }
+    h3{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+        color: #333333;
+    }
+    p{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+
+        color: #333333;
+    }
+}
