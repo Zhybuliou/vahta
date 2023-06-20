@@ -57,11 +57,10 @@ export default function Form() {
         <TextField
           style={{ width: '100%', margin: '5px', background: 'white' }}
           name="date"
-          type="date"
+          type="text"
           label="Дата рождения"
           variant="outlined"
-          InputLabelProps={{ shrink: true, required: true }}
-          inputProps={{ min: '1964-01-24', max: '2005-05-31' }}
+          InputLabelProps={{ required: true }}
           value={age}
           onChange={(e: React.ChangeEvent<HTMLInputElement>) => setAge(e.target.value)}
         />
