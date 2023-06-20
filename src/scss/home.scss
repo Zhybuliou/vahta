@@ -141,6 +141,7 @@
     }
     .advantages-section-content{
         justify-content: center;
+        padding-top: 10px;
     }
     .advantages-item{
         height: 80px;
@@ -152,7 +153,9 @@
         flex-wrap: wrap;
     }
     .form-section-header {
-        padding-top: 100px;
+        padding-top: 110px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     .form-section-content-left{
         width: 100%;
