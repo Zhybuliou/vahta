@@ -100,6 +100,7 @@
     margin: 0 auto;
     max-width: 1145px;
     height: 100%;
+    text-align: center;
 }
 .form-section-header{
     padding-top: 40px;
@@ -125,3 +126,43 @@
     background-position: bottom;
     height: 530px;
 }
+@media screen and (max-width: 700px) {
+    .home-top-window {
+        h2{
+            font-size: 32px;
+            line-height: 40px;
+        }
+    }
+    .home-top {
+        height: 500px;
+    }
+    .home-top-window {
+        height: 300px;
+    }
+    .advantages-section-content{
+        justify-content: center;
+    }
+    .advantages-item{
+        height: 80px;
+    }
+    .form-section {
+        height: 100%;
+    }
+    .form-section-content{
+        flex-wrap: wrap;
+    }
+    .form-section-header {
+        padding-top: 100px;
+    }
+    .form-section-content-left{
+        width: 100%;
+        height: 100%;
+    }
+    .form-section-content-right{
+        width: 100%;
+        height: 300px;
+    }
+    .form-wrapper{
+        height: 100%;
+    }
+  }
