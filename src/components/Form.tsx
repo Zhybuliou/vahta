@@ -51,6 +51,8 @@ export default function Form() {
           type="text"
           label="Фамилия Имя Отчество"
           variant="outlined"
+          InputLabelProps={{ required: true }}
+          inputProps={{ required: true }}
           value={name}
           onChange={(e: React.ChangeEvent<HTMLInputElement>) => setName(e.target.value)}
         />
@@ -61,6 +63,7 @@ export default function Form() {
           label="Дата рождения"
           variant="outlined"
           InputLabelProps={{ required: true }}
+          inputProps={{ required: true }}
           value={age}
           onChange={(e: React.ChangeEvent<HTMLInputElement>) => setAge(e.target.value)}
         />
@@ -69,6 +72,8 @@ export default function Form() {
           name="phone"
           label="Телефон"
           variant="outlined"
+          InputLabelProps={{ required: true }}
+          inputProps={{ required: true }}
           type="text"
           value={phone}
           onChange={(e: React.ChangeEvent<HTMLInputElement>) => setPhone(e.target.value)}
