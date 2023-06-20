@@ -1,10 +1,15 @@
 .header{
+    position: sticky;
+    top: 0;
     height: 122px;
     width: 100%;
     background-color: $white;
+
+    z-index: 9;
 }
 .header-content{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     height: 100%;

@@ -27,12 +27,12 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 643px;
+    max-width: 643px;
     height: 443px;
 
     padding: 40px;
 
-    background: #DFE9F4;
+    background: RGBA(223,233,244,0.90);
     border-radius: 10px;
     h2{
         color: #054C73;
@@ -57,6 +57,7 @@
 }
 .advantages-section-content{
     display: flex;
+    flex-wrap: wrap;
     margin: 0 auto;
     max-width: 1145px;
     height: 100%;
@@ -101,6 +102,8 @@
     height: 100%;
 }
 .form-section-header{
+    padding-top: 40px;
+    padding-bottom: 20px;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -112,6 +115,7 @@
 }
 .form-section-content-left{
     width: 55%;
+    height: 443px;
 }
 .form-section-content-right{
     width: 45%;
@@ -119,4 +123,5 @@
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: bottom;
+    height: 530px;
 }
