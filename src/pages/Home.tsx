@@ -1,4 +1,6 @@
 import { TbBus, TbCoffee, TbBuildingCommunity } from 'react-icons/tb';
+import { Accordion, AccordionDetails, AccordionSummary, Typography } from '@mui/material';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import Button from '../components/Button';
 import Form from '../components/Form';
 
@@ -96,6 +98,100 @@ export default function Home() {
               <h3>Подписать договор о сотрудничестве с VAHTA</h3>
             </div>
           </div>
+        </div>
+      </div>
+      <div className="fqa">
+        <h2>Часто задаваемые вопросы</h2>
+        <div className="fqa-content">
+          <Accordion>
+            <AccordionSummary
+              expandIcon={<ExpandMoreIcon />}
+              aria-controls="panel1a-content"
+              id="panel1a-header"
+            >
+              <Typography>Какие документы необходимы для оформления?</Typography>
+            </AccordionSummary>
+            <AccordionDetails>
+              <Typography>
+                <ol>
+                  <li>Паспорт</li>
+                  <li>СНИЛС</li>
+                  <li>ИНН</li>
+                  <li>Реквизиты банковской карты</li>
+                </ol>
+              </Typography>
+            </AccordionDetails>
+          </Accordion>
+          <Accordion>
+            <AccordionSummary
+              expandIcon={<ExpandMoreIcon />}
+              aria-controls="panel2a-content"
+              id="panel2a-header"
+            >
+              <Typography>Какой график оказания услуг?</Typography>
+            </AccordionSummary>
+            <AccordionDetails>
+              <Typography>
+                График сотрудничества: 6 дней в неделю, есть возможность выбора дневного/ночного
+                интервала.
+              </Typography>
+            </AccordionDetails>
+          </Accordion>
+          <Accordion>
+            <AccordionSummary
+              expandIcon={<ExpandMoreIcon />}
+              aria-controls="panel2a-content"
+              id="panel2a-header"
+            >
+              <Typography>Какой профиль деятельности ваших объектов?</Typography>
+            </AccordionSummary>
+            <AccordionDetails>
+              <Typography>
+                Объекты, обслуживаемые VAHTA – это сортировочные центры и распределительные
+                складские комплексы, на которых оказывается комплекс услуг складской логистики:
+                приемка, размещение, сортировка, отправка.
+              </Typography>
+            </AccordionDetails>
+          </Accordion>
+          <Accordion>
+            <AccordionSummary
+              expandIcon={<ExpandMoreIcon />}
+              aria-controls="panel2a-content"
+              id="panel2a-header"
+            >
+              <Typography>Организовано ли питание?</Typography>
+            </AccordionSummary>
+            <AccordionDetails>
+              <Typography>На территории складского комплекса есть столовая.</Typography>
+            </AccordionDetails>
+          </Accordion>
+          <Accordion>
+            <AccordionSummary
+              expandIcon={<ExpandMoreIcon />}
+              aria-controls="panel2a-content"
+              id="panel2a-header"
+            >
+              <Typography>Есть ли у вас обучение?</Typography>
+            </AccordionSummary>
+            <AccordionDetails>
+              <Typography>
+                Ответим на все вопросы и расскажем, что будет требоваться для осуществления приемки
+                и упаковки товаров на складе VAHTA!
+              </Typography>
+            </AccordionDetails>
+          </Accordion>
+          <Accordion>
+            <AccordionSummary
+              expandIcon={<ExpandMoreIcon />}
+              aria-controls="panel2a-content"
+              id="panel2a-header"
+            >
+              <Typography>Что подразумевается под комнатами отдыха?</Typography>
+            </AccordionSummary>
+            <AccordionDetails>
+              <Typography>Комнаты отдыха – это места для приема пищи.</Typography>
+            </AccordionDetails>
+          </Accordion>
         </div>
       </div>
       {/* <div className="wrapper-content">
