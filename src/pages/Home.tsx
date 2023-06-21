@@ -50,6 +50,54 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <div className="how-it-work">
+        <div className="how-it-work-header">
+          <h2>Как начать сотрудничество с VAHTA?</h2>
+        </div>
+        <div className="how-it-work-steps">
+          <div className="how-it-work-step">
+            <img src="../../public/image/shutterstock_141763513.jpg" alt="alt" />
+            <div className="how-it-work-step-circle">
+              <div className="how-it-work-step-circle-2">1.</div>
+            </div>
+            <div className="how-it-work-step-content">
+              <h3>
+                Позвонить нам по контактному телефону или оставить заявку на сотрудничество через
+                сайт
+              </h3>
+            </div>
+          </div>
+          <div className="how-it-work-step">
+            <img src="../../public/image/Mortgage-Consultant-jobs.jpg" alt="alt" />
+            <div className="how-it-work-step-circle">
+              <div className="how-it-work-step-circle-2">2.</div>
+            </div>
+            <div className="how-it-work-step-content">
+              <h3>
+                Обсудить условия сотрудничества и ознакомиться с перечнем востребованных услуг
+              </h3>
+            </div>
+          </div>
+          <div className="how-it-work-step">
+            <img src="../../public/image/umetdogovarivatsya1.jpg" alt="alt" />
+            <div className="how-it-work-step-circle">
+              <div className="how-it-work-step-circle-2">3.</div>
+            </div>
+            <div className="how-it-work-step-content">
+              <h3>Договориться о дате начала сотрудничества с VAHTA</h3>
+            </div>
+          </div>
+          <div className="how-it-work-step">
+            <img src="../../public/image/signature-1024x684.jpg" alt="alt" />
+            <div className="how-it-work-step-circle">
+              <div className="how-it-work-step-circle-2">4.</div>
+            </div>
+            <div className="how-it-work-step-content">
+              <h3>Подписать договор о сотрудничестве с VAHTA</h3>
+            </div>
+          </div>
+        </div>
+      </div>
       {/* <div className="wrapper-content">
         <h2>Hello world!!!</h2>
       </div> */}
