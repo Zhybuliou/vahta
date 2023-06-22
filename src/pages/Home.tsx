@@ -112,14 +112,7 @@ export default function Home() {
               <Typography>Какие документы необходимы для оформления?</Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography>
-                <ol>
-                  <li>Паспорт</li>
-                  <li>СНИЛС</li>
-                  <li>ИНН</li>
-                  <li>Реквизиты банковской карты</li>
-                </ol>
-              </Typography>
+              <Typography>1.Паспорт 2.СНИЛС 3.ИНН 4.Реквизиты банковской карты</Typography>
             </AccordionDetails>
           </Accordion>
           <Accordion>
